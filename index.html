@@ -1,0 +1,316 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang=en>
+
+<head>
+<title>LaTeX resources for Rice</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta name="keywords" content = "Daina, Chiba, LaTeX, Beamer, Rice, University">
+<meta name="author" content="Daina Chiba">
+<meta name="revised" content="April 2012">
+<script type="text/javascript">
+<!-- image = new Image(); image.src = "images/rice_shield.ico"; // -->
+</script> 
+<link rel="SHORTCUT ICON" href="images/favicon_rice.ico">
+<link rev=made href="mailto:daina.chiba&#64;alumni.rice.edu">
+<link href="index.html" rel=contents>
+<link href="ricebeamer.css" type="text/css" rel=stylesheet>
+</head>
+
+<body>
+
+<div id="pagetitle">
+<a href="index.html">
+<span class="LATEX">L<span class="A">A</span><span class="TEX">T<span class="E">E</span>X</span></span>resources
+</a>
+for Rice students <br />
+<p class="author">by <a href="https://dainachiba.github.io/">Daina Chiba</a></p>
+</div>
+
+<!-- menu ================= ================= ================= ================= -->
+<!--
+<div id="menu">
+<h2>menu</h2>
+ <ul>
+   <li><a href="../index.html">Daina Chiba</a></li>
+ </ul>
+</div>
+-->
+
+<!-- content ================= ================= ================= ================= -->
+<div id="content">
+  <h1>Introduction</h1>
+  <p>
+  <a href="images/br_ex1.png" class="mb">
+  <img height="128" border="0" alt="RiceBeamerExample1" title="RiceBeamerExample1" 
+  src="images/br_ex1.png" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+  </p>
+
+  <p>
+  <a href="http://www.latex-project.org/"><span class="LATEX">L<span class="A">A</span><span class="TEX">T<span class="E">E</span>X</span></span></a> is a typesetting system designed for scientific documentation. It can also be used as a powerful tool to create high quality presentation slides and conference posters. This page provides templates and style files I created for Rice students and scholars. 
+</br>
+
+  <ul>
+    <li> <a href="#beamer">Oral presentation slide</a></li>
+    <li> <a href="#poster">Conference poster</a></li>
+  </ul>
+  </p>
+
+  <h2>Disclaimer</h2>
+  <p>
+  I wrote these files primarily for my personal use when I was a graduate student at Rice. 
+  Although I have made every effort to ensure that these style files satisfy the Identity Standards of Rice University described in <a href="http://www.staff.rice.edu/images/styleguide/Rice_Identity_Standards.pdf">
+this document</a>, the files introduced here are <i>not</i> the official products of Rice University.
+All the files are under development, and your feedback is much appreciated 
+(<a href="mailto:daina.chiba&#64;alumni.rice.edu">daina.chiba&#64;alumni.rice.edu</a>).
+  </p>
+
+</div>
+
+<!-- Rice Beamer ================= ================= ================= ================= -->
+<div id="content">
+<a name="beamer"></a>
+<h1>RiceBeamer</h1>
+<!-- <p align=right> <a href="#top">back to top</a></p> -->
+
+ <p>
+  <a href="http://latex-beamer.sourceforge.net/">Beamer</a> is a class of <span class="LATEX">L<span class="A">A</span><span class="TEX">T<span class="E">E</span>X</span></span> system files for producing presentation slides and conference posters. 
+I created a new set of Beamer theme files for Rice University, which can also be used along with many standard Beamer themes.
+
+The RiceBeamer style consists of two main theme files &mdash; color theme (colorthemericeowl.sty) and outer theme (beamerthemeRice.sty).
+ You can download an archived package that contains the above two files and an example presentation (<a href="latex/BeamerRiceExample.tex">.tex</a> and <a href="latex/BeamerRiceExample.pdf">.pdf</a>).
+  </p>
+
+<!--
+  The color theme provides official Rice Blue and Rice Gray for slide banners and other parts.
+  This can be used individually, or combined with standard theme files (such as Warsaw theme), but it is primarily designed for use with the RiceBeamer outer theme.
+   The RiceBeamer outer theme comes with a header at the top of each slide showing the current section / subsection, and a footer showing the author and title. This theme requires the Rice Owl color theme file, along with an outer theme file (<a href="latex/beamerthemeRice.sty">.sty</a>), and a Rice logo (<a href="latex/rice-logo.pdf">small logo (24 KB)</a>).
+-->
+
+<h2>Download</h2>
+
+    <p>
+  <table>
+    <tr>
+      <td><b>File</b></td>
+      <td></td>
+      <td><b>Description</b></td>
+    </tr>
+    <tr>
+      <td><a href="latex/RiceBeamer.zip">RiceBeamer.zip</a></br>(ver.0.02, 360 KB)</td>
+      <td></td>
+      <td>This is an archived package that contains the following two style files, the logo, and an example presentation (<a href="latex/BeamerRiceExample.tex">source</a> and <a href="latex/BeamerRiceExample.pdf">pdf</a>).</td>
+    </tr>
+    <tr>
+      <td><a href="latex/beamercolorthemericeowl.sty">beamercolorthemericeowl.sty</a></td>
+     <td>color theme (RiceOwl)</td>
+     <td>This provides official <span style="background-color:#002469; color:white">-Rice Blue-</span> 
+       and <span style="background-color:#5e6062; color:white">-Rice Gray-</span> (as defined in 
+       <a href="http://www.staff.rice.edu/images/styleguide/Rice_Identity_Standards.pdf">
+       Rice University Identity Standards (pdf)</a>), along with other colors and styles. 
+       This color theme can be used individually, or combined with the standard theme files (such as 
+       Warsaw theme), but it is primarily designed for use with the Rice Beamer style, introduced below.</td>
+    </tr>
+    <tr>
+      <td><a href="latex/beamerthemeRice.sty">beamerthemeRice.sty</a></td>
+      <td>outer theme (RiceBeamer)</td>
+      <td>A new Beamer theme that is based on the popular Warsaw theme. 
+	It comes with a header at the top of each slide showing the current section / subsection, and 
+	a footer showing the author and title. 
+	This theme requires the Rice Owl color theme file, along with an outer theme file 
+	(<a href="latex/beamerthemeRice.sty">beamerouterthemerice.sty</a>), 
+	and a Rice logo (<a href="latex/rice-logo.pdf">small logo (24 KB)</a>).</td>
+    </tr>
+  </table>
+  </p>
+
+  <h2>Installation</h2>
+  <p>
+  To install, download and decompress the files into a direcotry where your <span class="LATEX">L<span class="A">A</span><span class="TEX">T<span class="E">E</span>X</span></span> system can find a path to, and then rehash the path.
+  (If you don't know what I am talking about, just place all the files in the same folder.) </p>
+
+  <p>
+  For a Mac OS X machine, something like the following should work:
+  <p class="expln">
+  <span class="codefrag">/usr/local/texlive/2008/texmf/tex/latex/</span>
+  </p>
+  It is likely that this directory (/usr/...) is invisible from you. If so, (1) choose Finder application, (2) Press Shift+Command+G, and a new window whould appear, and then (3) type the above path (/usr/local/texlive/...) into the window.
+  </p>
+  <p>
+  Then, you need to rehash the path. Open a Terminal application (Applications/Utilities/Terminal.app), and type in :
+  <p class="expln">
+  <span class="codefrag">sudo mktexlsr</span>    
+  </p>
+
+  <p>  
+  For a Windows machine, something like the following should work:
+  <p class="expln">
+  <span class="codefrag">
+  c:/localtexmf/tex/latex/beamer/themes/theme <br>
+  c:/localtexmf/tex/latex/beamer/themes/color <br>
+  c:/localtexmf/tex/latex/beamer/themes/outer <br>
+  </span>    
+  </p>
+  Then, you need to texhas (or ls-R) so that <span class="LATEX">L<span class="A">A</span><span class="TEX">T<span class="E">E</span>X</span></span> can find the path. For example, if you use MikTeX on Windows, go to the settings menu, choose the general tab, and click on "Refresh FNDB".
+  </p>
+
+  <p>
+  Again, if you cannot complete any of the above procedures, you may place the style files 
+in the same folder in which your presentation .tex file is located.
+  </p>
+
+<h2>Updates</h2>
+<p>
+  <ul>
+    <li> ver 0.02 (11/23/2008) 
+    More options now available. See header.
+    </li>
+    <li> ver 0.01 (10/10/2008) 
+    Users can decide whether or not to show the RICE word mark in each slide. 
+    It can be placed in the header (top-right), footer (bottom-left), or both. 
+    For example, if you want it in the header, use <span class="codefrag">ricet</span> 
+    option in the preamble. See the example file sources for more detail.
+    </li>
+  </ul>
+</p>
+
+<h2>Other Resources</h2>
+<p>
+  <ul>
+    <li>The <a href="http://latex-beamer.sourceforge.net/">
+    	LaTeX Beamer class website</a> on Sourceforge
+    </li>
+    <li><a href="http://www.csc.ncsu.edu/faculty/doyle/pickup/beamer/beameruserguide.pdf">
+    Beamer User Guide</a> that contains detailed examples. </li>
+    <li> The Official PowerPoint presentation templates of Rice can be downloaded from
+    <a href="http://www.staff.rice.edu/staff/Rice_Brand.asp">Rice's website</a>, if you're so inclined.</li>
+  </ul>
+</p>
+
+</div>
+
+<!--
+<h2>Updates</h2>
+<p>
+  <ul>
+    <li> ver 0.02 (11/23/2008) 
+    More options now available. See header.
+    </li>
+    <li> ver 0.01 (10/10/2008) 
+    Users can decide whether or not to show the RICE word mark in each slide. 
+    It can be placed in the header (top-right), footer (bottom-left), or both. 
+    For example, if you want it in the header, use <span class="codefrag">ricet</span> 
+    option in the preamble. See the example file sources for more detail.
+    </li>
+  </ul>
+</p>
+-->
+
+
+
+<!-- Poster ================= ================= ================= ================= -->
+<div id="content">
+<a name="poster"></a>
+<!-- <p align=right> <a href="#top">back to top</a></p> -->
+<h1>RicePoster</h1>
+  <p>
+  <a href="latex/RicePosterExample.pdf" class="mb">
+  <img height="200" border="0" alt="PosterExample" title="PosterExample" 
+  src="images/riceposterexample.jpeg" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+  </p>
+
+	<p>
+  	Beamer can also be used to produce posters for academic presentations. 
+  	Drawing on the style files and examples that other people have created, I made an example poster 
+  	for Rice students &amp; scholars. This poster is best viewed if printed on an A0 size paper. 
+  </p>
+
+	<p>
+	You may find the following pages useful to know more about Beamer poster:
+	
+	<ul>
+	<li><a href="http://www-i6.informatik.rwth-aachen.de/~dreuw/latexbeamerposter.php">The beamerposter package</a> developed by <a href=""http://www-i6.informatik.rwth-aachen.de/~dreuw/>Philippe Dreuw</a> and <a href="http://www-i6.informatik.rwth-aachen.de/~deselaers/">Thomas Deselaers</a></li>
+	<li><a href="http://www.nathanieljohnston.com/2009/08/latex-poster-template/">Nathaniel Johnston's</a> very useful template</li>
+	<li><a href="http://www.ctan.org/tex-archive/macros/latex/contrib/beamerposter">beamerposter style at CTAN</a></li>
+	</ul>
+	</p>
+
+<h2>Download</h2>
+
+	<p> You can download an archived directory that contains everything.
+
+  <table>
+    <tr>
+      <td><b>File</b></td>
+      <td></td>
+      <td><b>Description</b></td>
+    </tr>
+
+    <tr>
+      <td><a href="latex/RicePoster.zip">RicePoster.zip</a></br>(450 KB)</td>
+      <td></td>
+      <td>This is an archived package that contains all of the following files as well as some other files (logos, figures, etc.)</td>
+    </tr>
+    <tr>
+      <td><a href="latex/beamerthemeRicePoster.sty">beamerthemeRicePoster.sty</a></td>
+     <td></td>
+     <td>This style file provides official <span style="background-color:#002469; color:white">-Rice Blue-</span> 
+       and <span style="background-color:#5e6062; color:white">-Rice Gray-</span> (as defined in 
+       <a href="http://www.staff.rice.edu/images/styleguide/Rice_Identity_Standards.pdf">
+       Rice University Identity Standards (pdf)</a>), along with other colors and styles. 
+       </td>
+    </tr>
+
+    <tr>
+      <td><a href="beamerposter.sty">beamerposter.sty</a></td>
+      <td></td>
+      <td>This is the Beamer poster style file developed by <a href=""http://www-i6.informatik.rwth-aachen.de/~dreuw/>Philippe Dreuw</a> and <a href="http://www-i6.informatik.rwth-aachen.de/~deselaers/">Thomas Deselaers</a>. RicePoster requires this style file.</td>
+    </tr>
+
+
+    <tr>
+      <td><a href="latex/RicePosterExample.tex">RicePosterExample.tex</a> <a href="latex/RicePosterExample.pdf">RicePosterExample.pdf</a></td>
+      <td></td>
+      <td>Source (.tex) and output (.pdf) files of an example poster.</td>
+    </tr>
+    <tr>
+      <td><a href="latex/plotFigs.R">plotFigs.R</a></td>
+      <td></td>
+      <td>R code that produces all the figures used in the example poster. </td>
+    </tr>
+
+  </table>
+
+
+	</p>
+
+
+
+</div>
+
+
+
+<!-- footer ================= ================= ================= ================= -->
+<div id="Copyright">
+  <a href="http://www.rice.edu/">
+  <img src="images/RiceLogoTrans.gif" alt="Rice Logo" border="0" height="50" style="margin: 0px 95px 0px 5px; float: right;">
+  </a>
+ <address>
+  Last updated on April 19, 2019, &#169; <a href="mailto:daina.chiba&#64;alumni.rice.ede">Daina Chiba</a>, 2006-2019
+ </address>
+<!-- Site Meter -->
+<script type="text/javascript" src="http://s11.sitemeter.com/js/counter.js?site=s11ricebeamer">
+</script>
+<noscript>
+<a href="http://s11.sitemeter.com/stats.asp?site=s11ricebeamer" target="_top">
+<img src="http://s11.sitemeter.com/meter.asp?site=s11ricebeamer" alt="Site Meter" border="0"/></a>
+</noscript>
+<!-- Copyright (c)2009 Site Meter -->
+</div>
+
+
+
+</body>
+</html>
+
